@@ -1,14 +1,14 @@
 <?php
 
- define ('DB_HOST','50.62.209.44');
- define ('DB_USER','dx_lsidb');
- define ('DB_Password','Dws@123');
- define ('DB_DATABASE','lsidb');
+//  define ('DB_HOST','50.62.209.44');
+//  define ('DB_USER','dx_lsidb');
+//  define ('DB_Password','Dws@123');
+//  define ('DB_DATABASE','lsidb');
 
-//define ('DB_HOST','localhost');
-//define ('DB_USER','db_vidcart');
-//define ('DB_Password','dws@123');
-//define ('DB_DATABASE','lsidb');
+define ('DB_HOST','localhost');
+define ('DB_USER','root');
+define ('DB_Password','');
+define ('DB_DATABASE','serverdb');
 
 
 class connection {
