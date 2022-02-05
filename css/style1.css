@@ -1,0 +1,22 @@
+﻿body {
+  }
+
+.wrapper {
+      background-color:brown;
+    
+}
+
+
+
+ .navbar-default {
+background-color:#1c4a89;
+border-radius:0;
+border:0;
+}
+
+    .navbar-default .navbar-nav > li > a {
+     color:white;
+    }
+.active {
+color:white;
+}
