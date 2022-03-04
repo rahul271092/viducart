@@ -1,13 +1,13 @@
 <?php
 require_once("../connection.php");
 
-$userId=$_GET["u"];
-$sql="select count(*) as record from  user where id=".$userId;
-$result=$con->query($sql)->fetchAll();
+$email=$_GET["e"];
+$sql="select count(*) as record from  user where email=?";
+$result=$con->query($sql,$email)->fetchAll();
 foreach($result as $row)
 {
-    $record=$row["record"];
+    $record= array('rec'=> $row["record"]);
 
 }
-echo json_encode(array("record"=>$record));
+echo json_encode($record);
 ?>
