@@ -1,6 +1,6 @@
 <?php
 require_once("../connection.php");
-$userId=$_GET["u"];
+$userId=$_POST["u"];
 $sql="select count(*) as record from  prime_video_count where userId=?";
 $result=$con->query($sql,$userId)->fetchAll();
 foreach($result as $row)
