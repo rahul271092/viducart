@@ -50,6 +50,11 @@ require_once("../connection.php");
         </li>
 
             <li><a href="rejected-videos.php">Rejected Video List</a></li>
+
+            <li>
+              <a href="update-video-status.php">Update video Status</a> 
+            </li>
+
           </ul>
         </li>
 

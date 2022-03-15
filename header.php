@@ -15,12 +15,11 @@ body{
     height:100vh;
 }
 </style>
-
 </head>
 <body>
 
 <div class="jumbotron" style="padding:10px;background:white;">
 <div class="container">
-<h3 style="font-weight:bold;">Viducart Beta Login </h1>
+<h3 style="font-weight:bold;">A1bizz Beta Login </h1>
 </div>
 </div>

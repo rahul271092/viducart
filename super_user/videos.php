@@ -69,7 +69,7 @@ $i=1;
 
 <td><input type="checkbox" name="vstatus[]" value="<?php echo $row["id"]; ?>" ></td>
       <td><?php echo "VIDU".$row["id"]; ?></td>
-      <td><video  style="width:120px;height:240px;" controls="controls"> <source src='<?php echo "http://viducart.wwmsc.in/api/".$row["video"]; ?>' type="video/mp4" /></video> </td>
+      <td><video  style="width:120px;height:240px;" controls="controls"> <source src='<?php echo "http://viducart.ko1.in/api/".$row["video"]; ?>' type="video/mp4" /></video> </td>
       
       <td><?php echo $row["description"]; ?></td>
       <td><?php echo $row["view"] ?></td>
